@@ -1,2 +1,2 @@
-# input_test
+# Simple input app
 Simple exercise application for beginner testers
