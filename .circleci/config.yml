@@ -13,7 +13,7 @@ jobs:
           pkg-manager: pip
       - run:
           name: Run Flake8
-          command: flake8 ./
+          command: flake8 --per-file-ignores="__init__.py:F401" ./
       - run:
           name: Run tests
           command: pytest test/
